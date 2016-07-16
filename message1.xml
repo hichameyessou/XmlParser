@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE message SYSTEM "message.dtd" >
+<message id="message1">
+  <header>
+    <type id="normal" reason="Hello world"/>
+    <metadata id="thesender" name="sender" value="Lolla"/>
+    <metadata id="therecipient" name="recipient" value="Mike"/>
+    <format type="plain"/>
+  </header>
+  <data>
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur, dolor nec gravida consectetur, quam ex vehicula purus, non tempus ante diam a sapien. Maecenas et lorem lectus. Quisque porttitor, tellus sit amet fringilla tempus, lectus nunc sollicitudin arcu, et auctor nibh diam a augue. Nam convallis nunc non risus sodales, ac blandit sem fringilla. Donec sagittis augue urna, ac euismod elit consectetur eu. Sed ac est dapibus, dictum libero sit amet, pellentesque turpis. Vivamus sit amet erat nunc. Nunc orci ipsum, placerat sit amet ultricies id, iaculis sit amet ante.
+     Mauris vitae pellentesque nibh. Ut feugiat sem sit amet ligula facilisis finibus. Etiam maximus odio id lacus rutrum consequat. Suspendisse sit amet purus nec augue lobortis facilisis non nec est. Nulla vitae nibh et ex gravida posuere. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam vehicula ultricies semper. Curabitur eleifend justo sed placerat posuere. Sed aliquet semper lacus. Ut gravida odio mollis, efficitur velit eu, tempus ipsum. 
+  </data>
+</message>

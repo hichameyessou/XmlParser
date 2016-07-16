@@ -1,0 +1,48 @@
+{
+	"tag":"Xml-Version",
+	"content": xml version="1.0" encoding="UTF-8"?,
+	"tag":"doctype",
+	"content": DOCTYPE message SYSTEM "message.dtd" ,
+	"tag": "message",
+	"@id": "message2",
+	"content": [
+	"tag": "header",
+	"content":[
+	"tag": "type",
+	"@id": "normal",
+	"tag": "metadata",
+	"@id": "thesender",
+	"@name": "sender",
+	"@value": "Mike",
+	"tag": "metadata",
+	"@id": "therecipient1",
+	"@name": "recipient",
+	"@value": "Luke",
+	"tag": "format",
+	"@type": "structured"],
+	{
+	"tag": "data",
+	"content": 	[
+		
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur, dolor nec gravida consectetur, quam ex vehicula purus, non tempus ante diam a sapien. Maecenas et lorem lectus. Quisque porttitor, tellus sit amet fringilla tempus, lectus nunc sollicitudin arcu, et auctor nibh diam a augue. Nam convallis nunc non risus sodales, ac blandit sem fringilla. Donec sagittis augue urna, ac euismod elit consectetur eu. Sed ac est dapibus, dictum libero sit amet, pellentesque turpis. Vivamus sit amet erat nunc. Nunc orci ipsum, placerat sit amet ultricies id, iaculis sit amet ante.
+    
+	],
+	{
+	"tag": "section",
+	"@id": "secA",
+	"@title": "Sezione A",
+	"content" :[
+	"tag": "paragraph"
+	[
+		Mauris vitae pellentesque nibh. Ut feugiat sem sit amet ligula facilisis finibus. Etiam maximus odio id lacus rutrum consequat. Suspendisse sit amet purus nec augue lobortis facilisis non nec est. Nulla vitae nibh et ex gravida posuere. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam vehicula ultricies semper. Curabitur eleifend justo sed placerat posuere. Sed aliquet semper lacus. Ut gravida odio mollis, efficitur velit eu, tempus ipsum.
+	],
+	"tag": "paragraph"
+	[
+		Suspendisse mattis bibendum libero in ultrices. Duis feugiat diam in cursus sollicitudin. Ut bibendum hendrerit lacus, sed cursus tellus posuere non. Aliquam pellentesque nisl at eros vestibulum, accumsan gravida diam molestie. Praesent id justo ut nisi efficitur gravida. In elementum elit et scelerisque molestie. Quisque a tincidunt massa.
+	],
+	"tag": "figure" ,
+	"@id": "thefigure",
+	"@path": "folder/to/picture.png"
+	],}
+	}],
+}

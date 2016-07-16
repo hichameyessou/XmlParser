@@ -1,0 +1,52 @@
+<!ELEMENT  message (header, data+)>
+<!ATTLIST message
+	id ID #REQUIRED>
+
+<!ELEMENT header (type, metadata*,format?)>
+
+<!ELEMENT type EMPTY>
+<!ATTLIST type
+	id (normal | forward | reply) #REQUIRED
+	reason CDATA "">
+
+<!ELEMENT metadata EMPTY>
+<!ATTLIST metadata 
+	id ID #REQUIRED
+	name CDATA #REQUIRED
+	value CDATA "">
+	
+<!ELEMENT format EMPTY>
+<!ATTLIST format
+	type (plain|structured) "plain">	
+
+<!ELEMENT data (#PCDATA|section)*>
+
+<!ELEMENT section (#PCDATA|section|paragraph|figure|table|anchor|link)*>
+<!ATTLIST section
+	id ID #REQUIRED
+	title CDATA #REQUIRED>
+	
+<!ELEMENT paragraph (#PCDATA)>
+
+<!ELEMENT figure EMPTY>
+<!ATTLIST figure
+	id ID #REQUIRED
+	caption CDATA #IMPLIED
+	path CDATA "placeholder.jpg">
+
+<!ELEMENT table (row+)>
+<!ATTLIST table
+	id ID #REQUIRED
+	caption CDATA #REQUIRED>
+
+<!ELEMENT row (cell+)>
+<!ELEMENT cell (#PCDATA)>
+
+<!ELEMENT anchor (#PCDATA)>
+<!ATTLIST anchor
+	id ID #REQUIRED>
+	
+<!ELEMENT link (#PCDATA)>
+<!ATTLIST link
+	target IDREF #REQUIRED
+	title CDATA "">
