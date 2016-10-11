@@ -1,4 +1,5 @@
 # XmlParser
+XML -> JSON
 Compile the BYACC and FLEX files, compile the Java's and run passing through command line the XML's
 
 Usage: 
