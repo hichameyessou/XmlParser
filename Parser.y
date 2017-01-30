@@ -10,7 +10,7 @@ import org.xml.sax.*;
 
 %%
 
-/* vado a definire le varie produzioni */
+/* defining the productions */
 
 start		: doc message {System.out.println("{\n"+$1+$2+"\n}");}
 			;
